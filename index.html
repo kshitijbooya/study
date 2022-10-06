@@ -1,0 +1,46 @@
+<html>
+<head>
+    <title>Real Time Image Identification App</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body id="background">
+    <center>
+        <p id="case">CASE STUDY GOOGLE LENS VS MOBILENET </p>
+        <span  id="google_img" class="google_lens">GOOGLE LENS<img id="lens"src="https://1.bp.blogspot.com/-EOR16t-49fE/X0qL4yvHYsI/AAAAAAAAD-0/Yn4NJhkDStk8Uz0Hf5wv_LySQaqXXUp7ACLcBGAsYHQ/s1080/IMG_20200829_223908.jpg" class="img_responsive"></span>
+        <p id="vs">vs</p>
+        <p id="mobilenet">MOBILENET</p>
+        <ol>
+            <div class="test_image_and_result1 col-xs-12">
+                <li class="col-sm-4 col-xs-12">
+                    <b class="white1">Test Image - </b>
+                    <img id="bottle" class="img" src="https://static.toiimg.com/thumb/msid-81984788,width-1200,height-900,resizemode-4/.jpg">
+                </li>
+                <h5 class="first col-sm-4 col-sx-12">
+                    Output On <b>GOOGLE LENS</b>
+                    <br>
+                    <br>
+                    COPPER BOTTLE
+                </h5>
+
+
+                    
+                <h5 class="second col-sm-4 col-sx-12">
+                    Output On <b>MOBILENET</b>
+                </h5>
+                <div class="mini_result" class="col-xs-12">
+                    <h4>Result</h4>
+                    <hr> 
+                </div>
+            </div>
+            <br>
+    </center>
+  </body> 
+</html>
